@@ -4,6 +4,7 @@ import java.util.Random
 public class mainClass {
 public static main(String[], arg) {
   Scanner dec = new Scanner(System.out);
+  Scanner wait = new Scanner(System.out);
   Random encounter = new Random();
   game gameOBject = new game();
   
