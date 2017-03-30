@@ -9,7 +9,7 @@ public static main(String[], arg) {
   System.out.print("Menu\n1. new game\n2. continue\n3. quit");
   decision = dec.netInt();
   switch(decision) {
-  case 1: new();break;
+  case 1: newg();break;
   case 2: cont();break;
   case 3: quit();break;
   default: main();
